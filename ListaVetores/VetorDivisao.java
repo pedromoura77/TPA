@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class VetorDivisao {
+public class Divisao {
     public static void main(String[] args) {
         Scanner ler = new Scanner(System.in);
         final int TAM = 2; 
@@ -33,3 +33,4 @@ public class VetorDivisao {
         }
     }
 }
+
