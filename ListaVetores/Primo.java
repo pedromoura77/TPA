@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class VetorPrimo {
+public class Primo {
    
 	
 	public static void main(String[] args) {
@@ -24,7 +24,7 @@ public class VetorPrimo {
             d= 0;
 
             if (num <= 1) {
-                System.out.println( num + " Nao é primo");
+                System.out.println( num + " Nao Ã© primo");
             } 
             else {
 
@@ -35,12 +35,13 @@ public class VetorPrimo {
                 }
 
                 if (d == 0) {
-                    System.out.println( num + " é PRIMO");
+                    System.out.println( num + " Ã© PRIMO");
                 } else {
-                    System.out.println(  num + " Nao é primo");
+                    System.out.println(  num + " Nao Ã© primo");
                 }
             }
         }
        }
 	}
+
 
