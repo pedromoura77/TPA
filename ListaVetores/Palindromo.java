@@ -5,11 +5,10 @@ import java.util.Scanner;
 public class Palindromo {
 	public static void main(String[] args) {
 		
-		
-		Scanner in = new Scanner (System.in);
+		Scanner ler = new Scanner (System.in);
 		
 		final int TAM=10;
-		int a[],erros = 0,j,i;
+		int a[],erro = 0,j,i;
 		a = new int [TAM];
 		
 		for (i = 0; i < TAM; i++) {
@@ -17,7 +16,6 @@ public class Palindromo {
             a[i] = in.nextInt();
         }
 
-        
         for (i = 0; i < TAM/2; i++) {
             j = TAM - 1 - i; 
 
@@ -26,7 +24,6 @@ public class Palindromo {
             }
         }
 
-        
         if (erros == 0) {
             System.out.println("\nO vetor É um palíndromo.");
         } else {
@@ -35,3 +32,4 @@ public class Palindromo {
         
 	}
 }
+
