@@ -11,7 +11,7 @@ public class VetorFatorial{
         long[] B = new long[TAM];
         int contador; 
 
-        System.out.println("Digite " + TAM + " números inteiros:");
+        System.out.println("Digite " + TAM + " nÃºmeros inteiros:");
         for (int i = 0; i < TAM; i++) {
            A[i] = ler.nextInt();
         }
