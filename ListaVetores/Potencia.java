@@ -5,8 +5,7 @@ import java.util.Scanner;
 public class Potencia {
 	public static void main(String[] args) {
 		
-		
-		Scanner in = new Scanner (System.in);
+		Scanner ler = new Scanner (System.in);
 		
 		final int TAM=11;
 		int a[],i;
@@ -29,3 +28,4 @@ public class Potencia {
         
 	}
 }
+
