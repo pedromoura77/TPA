@@ -1,5 +1,3 @@
-package prjVetor;
-
 import java.util.Scanner;
 
 public class Potencia {
@@ -28,4 +26,5 @@ public class Potencia {
         
 	}
 }
+
 
