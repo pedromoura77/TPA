@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class VetorFatorial{
+public class Fatorial{
 
     public static void main(String[] args) {
         
@@ -34,6 +34,7 @@ public class VetorFatorial{
 
    }
 }
+
 
 
 
