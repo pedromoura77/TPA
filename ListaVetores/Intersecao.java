@@ -1,5 +1,3 @@
-package prjVetor;
-
 import java.util.Scanner;
 
 public class Intersecao {
@@ -57,4 +55,5 @@ public class Intersecao {
 		
 	}
 }
+
 
