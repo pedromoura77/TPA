@@ -1,12 +1,9 @@
-package prjVetor;
-
 import java.util.Scanner;
 
 public class Somatorio {
 	public static void main(String[] args) {
 		
-		
-		Scanner in  = new Scanner (System.in);
+		Scanner ler  = new Scanner (System.in);
 		
 		final int TAM=10;
 		int a[],b[],j,soma,i;
@@ -37,3 +34,4 @@ public class Somatorio {
         
 	}
 }
+
