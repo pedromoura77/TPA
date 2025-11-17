@@ -2,7 +2,7 @@ package prjVetor;
 
 import java.util.Scanner;
 
-public class VetorRotina {
+public class Rotina {
 	public static void main(String[] args) {
 		
 		Scanner in = new Scanner (System.in);
@@ -32,4 +32,5 @@ public class VetorRotina {
 		
 	}
 }
+
 
