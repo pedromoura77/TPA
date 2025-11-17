@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class VetorPar {
+public class Par {
     public static void main(String[] args) {
         Scanner ler = new Scanner(System.in);
         final int TAM = 2;
@@ -12,14 +12,14 @@ public class VetorPar {
 
 
         for (i = 0; i < TAM; i++) {
-            System.out.println("Entre com o " + (i + 1) + "º valor:");
+            System.out.println("Entre com o " + (i + 1) + "Âº valor:");
             a[i] = ler.nextInt();
         }
 
      
         for (i = 0; i < TAM; i++) {
          
-            System.out.print("Pares de 0 até " + a[i] + ": ");
+            System.out.print("Pares de 0 atÃ© " + a[i] + ": ");
 
             
             for (num = 0; num <= a[i]; num++) {
@@ -30,3 +30,4 @@ public class VetorPar {
         }
     }
 }
+
