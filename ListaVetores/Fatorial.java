@@ -6,7 +6,7 @@ public class Fatorial{
     public static void main(String[] args) {
         
         Scanner ler = new Scanner(System.in);
-        final int TAM = 2;
+        final int TAM = 10;
         int[] A = new int[TAM];
         long[] B = new long[TAM];
         int contador; 
@@ -34,6 +34,7 @@ public class Fatorial{
 
    }
 }
+
 
 
 
