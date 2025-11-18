@@ -19,12 +19,12 @@ public class Potencia {
             a[i] = (int) Math.pow(2, i);
         }
 
-        // Exibir o vetor
         for (i = 0; i < TAM; i++) {
             System.out.println("A[" + i + "] = " + a[i]);
         }
         
 	}
 }
+
 
 
