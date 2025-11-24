@@ -8,7 +8,7 @@ public class Fatorial{
         Scanner ler = new Scanner(System.in);
         final int TAM = 10;
         int[] A = new int[TAM];
-        long[] B = new long[TAM];
+        int[] B = new int[TAM];
         int contador; 
 
         System.out.println("Digite " + TAM + " números inteiros:");
@@ -34,6 +34,7 @@ public class Fatorial{
 
    }
 }
+
 
 
 
